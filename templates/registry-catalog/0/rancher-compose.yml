@@ -17,13 +17,13 @@ registry:
   description: "It spins up a docker registry for containers"
   questions:
     - variable: "RANCHER_HOST_LABEL_KEY"
-      label: "Access Key"
-      description: "AWS User Access Key with S3 bucket access"
+      label: "Host Label Key"
+      description: "Rancher host label key used to deploy the container eg:tier"
       type: "string"
       required: true
     - variable: "RANCHER_HOST_LABEL_VALUE"
-      label: "Access Key"
-      description: "AWS User Access Key with S3 bucket access"
+      label: "Host Label Value"
+      description: "Rancher host label value used to deploy the container eg:1"
       type: "string"
       required: true
     - variable: "AWS_ACCESS_KEY"
