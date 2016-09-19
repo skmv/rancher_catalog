@@ -1,0 +1,5 @@
+name: registry-stack
+description: |
+  It creates a docker registry stack
+version: v0.0.1
+category: test
